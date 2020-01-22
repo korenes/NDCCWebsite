@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.body{
+    background-color: black;
+    color: white; 
+}
+
+#header{
+    font-family: 'Times New Roman', Times, serif;
+    /* position: fixed;  */
+    top: 0;
+    overflow: hidden;
+}
+
+.motto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+li {
+    float: left;
+    font-size: 20px;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: yellow;
+    color:black;
+  }
+
+.donate{
+    background-color: yellow;
+}
+
+button a{
+  text-decoration: none;
+}
+.grid-container1 {
+    display: inline;
+    grid-template-columns: auto;
+  }
+
+  /* you should always set a max-width just to be safe in case of an overflow */
+img {
+    max-width: 50%;
+    max-height: 50%;
+    float: right;
+   
+}
+.centered1 {
+  text-align: center;
+}
+
+.link1{
+  color: blue;
+  font-size: 18px;
+}
+.p2{
+    font-weight: bold; 
+  }
+
+.grid-container2 {
+  align-items: center;
+}
+
+section{
+  font-size: 2.5em;
+}
+
+.button1 {
+    text-decoration: none;
+    background-color:yellow;
+    
+}
+
+/*  Reserve this for when I figure out how to fit it in this page 
+.container1 {
+  overflow: scroll;
+} */
+
+.mission{
+  color: black;
+}

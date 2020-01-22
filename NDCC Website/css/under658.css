@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.body{
+    background-color: blue;
+    color: white; 
+}
+
+#header{
+    font-family: 'Times New Roman', Times, serif;
+    /* position: fixed;  */
+    top: 0;
+    overflow: hidden;
+}
+
+.motto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* 
+hamburger menu, trying to make it work, the menu is off-canvas
+
+html, body, main{
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  transform: translate(-300px, 0) ;
+  transition: transform 0.3s ease;
+{
+
+  nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: yellow;
+    color:black;
+  }
+
+.donate{
+    background-color: yellow;
+}
+
+button a{
+  text-decoration: none;
+}
+.grid-container1 {
+    display: inline;
+    grid-template-columns: auto;
+  }
+
+  /* you should always set a max-width just to be safe in case of an overflow */
+img {
+    max-width: 50%;
+    max-height: 50%;
+    float: right;
+   
+}
+.centered1 {
+  text-align: center;
+}
+
+.link1{
+  color: blue;
+  font-size: 18px;
+}
+.p2{
+    font-weight: bold; 
+  }
+
+.grid-container2 {
+  align-items: center;
+}
+
+.button1 {
+    text-decoration: none;
+    background-color:yellow;
+    
+}
+
+/*  Reserve this for when I figure out how to fit it in this page 
+.container1 {
+  overflow: scroll;
+} */
+
+.mission{
+  color: black;
+}
